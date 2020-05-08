@@ -38,7 +38,7 @@ ALTER TABLE public.categories OWNER TO caryn;
 
 CREATE SEQUENCE public.categories_id_seq
     AS integer
-    START WITH 1
+    START WITH 0
     INCREMENT BY 1
     NO MINVALUE
     NO MAXVALUE
